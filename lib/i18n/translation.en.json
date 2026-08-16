@@ -1,0 +1,26 @@
+{
+  "META_TITLE": "FinanceOS",
+  "META_DESCRIPTION": "Personal finance planning and simulation platform",
+
+  "HERO_TAGLINE": "Not “where did my money go?” — where is it taking you?",
+  "HERO_CTA": "Open dashboard",
+  "EXPLORE_CTA": "Explore",
+
+  "MODULE_DASHBOARD_NAME": "Financial Dashboard",
+  "MODULE_DASHBOARD_DESCRIPTION": "Net worth, cash flow, savings rate, emergency fund, and FI progress at a glance.",
+
+  "MODULE_RULES_NAME": "Financial Rules",
+  "MODULE_RULES_DESCRIPTION": "See how your money stacks up against 50/30/20 and other guidelines — formula, result, and interpretation for each.",
+
+  "MODULE_COMPOUND_GROWTH_NAME": "Compound Growth Simulator",
+  "MODULE_COMPOUND_GROWTH_DESCRIPTION": "Project portfolio value from an initial investment, monthly contributions, expected return, and duration.",
+
+  "MODULE_FINANCIAL_INDEPENDENCE_NAME": "Financial Independence",
+  "MODULE_FINANCIAL_INDEPENDENCE_DESCRIPTION": "Your FI number (25x rule), the 4% withdrawal estimate, and how close you are today.",
+
+  "MODULE_GOALS_NAME": "Goals",
+  "MODULE_GOALS_DESCRIPTION": "Create financial goals and track progress toward each one.",
+
+  "MODULE_SCENARIOS_NAME": "Scenario Comparison",
+  "MODULE_SCENARIOS_DESCRIPTION": "Duplicate your current plan, change assumptions, and compare outcomes side by side."
+}

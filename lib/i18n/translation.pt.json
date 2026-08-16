@@ -1,0 +1,26 @@
+{
+  "META_TITLE": "FinanceOS",
+  "META_DESCRIPTION": "Plataforma de planeamento e simulação financeira pessoal",
+
+  "HERO_TAGLINE": "Não “para onde foi o meu dinheiro?” — para onde é que ele me leva?",
+  "HERO_CTA": "Abrir painel",
+  "EXPLORE_CTA": "Explorar",
+
+  "MODULE_DASHBOARD_NAME": "Painel Financeiro",
+  "MODULE_DASHBOARD_DESCRIPTION": "Património líquido, fluxo de caixa, taxa de poupança, fundo de emergência e progresso para a independência financeira, tudo num relance.",
+
+  "MODULE_RULES_NAME": "Regras Financeiras",
+  "MODULE_RULES_DESCRIPTION": "Veja como as suas finanças se comparam à regra 50/30/20 e a outras diretrizes — fórmula, resultado e interpretação para cada uma.",
+
+  "MODULE_COMPOUND_GROWTH_NAME": "Simulador de Juro Composto",
+  "MODULE_COMPOUND_GROWTH_DESCRIPTION": "Projete o valor da carteira a partir de um investimento inicial, contribuições mensais, retorno esperado e duração.",
+
+  "MODULE_FINANCIAL_INDEPENDENCE_NAME": "Independência Financeira",
+  "MODULE_FINANCIAL_INDEPENDENCE_DESCRIPTION": "O seu número de independência financeira (regra dos 25x), a estimativa de levantamento de 4% e o quão perto está hoje.",
+
+  "MODULE_GOALS_NAME": "Objetivos",
+  "MODULE_GOALS_DESCRIPTION": "Crie objetivos financeiros e acompanhe o progresso de cada um.",
+
+  "MODULE_SCENARIOS_NAME": "Comparação de Cenários",
+  "MODULE_SCENARIOS_DESCRIPTION": "Duplique o seu plano atual, altere pressupostos e compare resultados lado a lado."
+}
