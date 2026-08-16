@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+/*
+ * FinanceOS theme tokens — see THEME.md for rationale.
+ * Values sourced from the dataviz skill's validated reference palette.
+ * Light values on :root; dark values under both the OS media query and a
+ * future [data-theme="dark"] toggle scope, so a manual theme switch can be
+ * added later without touching these tokens.
+ */
+:root {
+  --background: #f9f9f7;
+  --surface: #fcfcfb;
+  --foreground: #0b0b0b;
+  --foreground-secondary: #52514e;
+  --foreground-muted: #898781;
+  --border: #e1e0d9;
+  --axis: #c3c2b7;
+
+  --brand: #1baf7a;
+
+  --status-good: #0ca30c;
+  --status-warning: #fab219;
+  --status-serious: #ec835a;
+  --status-critical: #d03b3b;
+
+  --series-1: #2a78d6; /* Needs / Contributed */
+  --series-2: #eb6834; /* Wants */
+  --series-3: #1baf7a; /* Savings / Investment growth (brand) */
+  --series-4: #eda100; /* reserve */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --background: #0d0d0d;
+    --surface: #1a1a19;
+    --foreground: #ffffff;
+    --foreground-secondary: #c3c2b7;
+    --foreground-muted: #898781;
+    --border: #2c2c2a;
+    --axis: #383835;
+
+    --brand: #199e70;
+
+    --status-good: #0ca30c;
+    --status-warning: #fab219;
+    --status-serious: #ec835a;
+    --status-critical: #d03b3b;
+
+    --series-1: #3987e5;
+    --series-2: #d95926;
+    --series-3: #199e70;
+    --series-4: #c98500;
+  }
+}
+
+:root[data-theme="dark"] {
+  --background: #0d0d0d;
+  --surface: #1a1a19;
+  --foreground: #ffffff;
+  --foreground-secondary: #c3c2b7;
+  --foreground-muted: #898781;
+  --border: #2c2c2a;
+  --axis: #383835;
+
+  --brand: #199e70;
+
+  --status-good: #0ca30c;
+  --status-warning: #fab219;
+  --status-serious: #ec835a;
+  --status-critical: #d03b3b;
+
+  --series-1: #3987e5;
+  --series-2: #d95926;
+  --series-3: #199e70;
+  --series-4: #c98500;
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-foreground: var(--foreground);
+  --color-foreground-secondary: var(--foreground-secondary);
+  --color-foreground-muted: var(--foreground-muted);
+  --color-border: var(--border);
+  --color-axis: var(--axis);
+
+  --color-brand: var(--brand);
+
+  --color-status-good: var(--status-good);
+  --color-status-warning: var(--status-warning);
+  --color-status-serious: var(--status-serious);
+  --color-status-critical: var(--status-critical);
+
+  --color-series-1: var(--series-1);
+  --color-series-2: var(--series-2);
+  --color-series-3: var(--series-3);
+  --color-series-4: var(--series-4);
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
